@@ -1,0 +1,77 @@
+/* Estilo para el cuerpo de la página */
+body {
+  scrollbar-width: thin; /* Establece el ancho de la barra de desplazamiento */
+  scrollbar-color: #999 #fff; /* Establece los colores de la barra de desplazamiento */
+}
+
+/* Establece el estilo de la barra de desplazamiento en navegadores basados en WebKit (Chrome, Safari) */
+/* Puedes ajustar los estilos según tus preferencias */
+::-webkit-scrollbar {
+  width: 10px; /* Ancho de la barra de desplazamiento */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #999; /* Color del pulgar de la barra de desplazamiento */
+  border-radius: 5px; /* Borde redondeado del pulgar */
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgba(39,39,42,1); /* Color de fondo de la pista de la barra de desplazamiento */
+  border-radius: 5px; /* Borde redondeado de la pista */
+}
+
+
+
+
+
+.section-all{
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+h1{
+  color: white;
+  font-size: 2rem !important;
+  text-align: center;
+  font-weight: bold !important;
+}
+header{
+  height: 120px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card{
+  width: 350px;
+  border: 1px solid rgba(39,39,42,1);
+  border-radius: .75rem;
+  height: calc(100% - 150px);
+  overflow-y: scroll;
+  padding: 1rem;
+}
+
+.card-cont{
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.btn-record{
+  margin-top: .5rem;
+  width: 100%;
+}
+#react-aria5403436497-\:rot\:{
+  text-transform: uppercase;
+}
+#react-aria5403436497-\:rot\:::placeholder{
+  text-transform:none;
+}
+.card-body{
+  font-size: .9rem;
+}
