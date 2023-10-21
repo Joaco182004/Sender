@@ -455,11 +455,11 @@ function App() {
           </p>
           <p>
             <b>Número de Teléfono: </b>
-            {numeroTelefono.replace(" ", "").replace(" ", "")}
+            {numeroTelefono.replace(" ", "").trim().replace(" ", "")}
           </p>
           <p>
             <b>Placa del auto: </b>
-            {numeroPlaca.replace(" ", "").toUpperCase().replace(" ", "")}
+            {numeroPlaca.replace(" ", "").toUpperCase().trim().replace(" ", "")}
           </p>
           <p>
             <b>Marca y Modelo del auto: </b>
