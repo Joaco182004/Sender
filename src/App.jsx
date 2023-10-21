@@ -439,11 +439,11 @@ function App() {
           </p>
           <p>
             <b>Número de Servicio: </b>
-            {numeroServicio.replace(" ", "")}
+            {numeroServicio.replace(" ", "").trim().replace(" ", "")}
           </p>
           <p>
             <b>Número de Siniestro: </b>
-            {numeroSiniestro.replace(" ", "")}
+            {numeroSiniestro.replace(" ", "").trim().replace(" ", "")}
           </p>
           <p>
             <b>Nombre del Asegurado: </b>
@@ -455,15 +455,15 @@ function App() {
           </p>
           <p>
             <b>Número de Teléfono: </b>
-            {numeroTelefono.replace(" ", "")}
+            {numeroTelefono.replace(" ", "").replace(" ", "")}
           </p>
           <p>
             <b>Placa del auto: </b>
-            {numeroPlaca.replace(" ", "").toUpperCase()}
+            {numeroPlaca.replace(" ", "").toUpperCase().replace(" ", "")}
           </p>
           <p>
             <b>Marca y Modelo del auto: </b>
-            {marcaAuto} - {modeloAuto.replace(" ", "")}
+            {marcaAuto} - {modeloAuto.replace(" ", "").trim().replace(" ", "")}
           </p>
           <p>
             <b>Ubicación del siniestro: </b>
@@ -480,7 +480,7 @@ function App() {
          variant="ghost"
         onClick={() => {
           validacionTexto();
-          !visibleCard ? handleWhatsAppLink("+51975527430") : {};
+          !visibleCard ? handleWhatsAppLink("+51953209302") : {};
         }}
         style={{ marginBlock: "1rem", width: "350px", fontWeight: "bold",background:'#18181b' }}
         color="primary"
