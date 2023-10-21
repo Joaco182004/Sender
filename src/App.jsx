@@ -480,7 +480,7 @@ function App() {
          variant="ghost"
         onClick={() => {
           validacionTexto();
-          !visibleCard ? handleWhatsAppLink("+51953209302") : {};
+          !visibleCard ? handleWhatsAppLink("+51975527430") : {};
         }}
         style={{ marginBlock: "1rem", width: "350px", fontWeight: "bold",background:'#18181b' }}
         color="primary"
