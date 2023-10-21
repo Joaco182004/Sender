@@ -493,7 +493,7 @@ function App() {
             setVisibleCard(true);
             setTextButton("Visualizar Mensaje");
           }}
-          style={{ width: "350px", fontWeight: "bold" }}
+          style={{ width: "350px", fontWeight: "bold",marginBottom:'1rem' }}
           color="default"
           className="dark"
         >
