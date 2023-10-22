@@ -206,7 +206,7 @@ function App() {
             type="text"
             variant="ghost"
             label="Número de Caso"
-            placeholder="Ingrese el número de servicio"
+            placeholder="Ingrese el número de caso"
           />
           <Button
             variant="ghost"
