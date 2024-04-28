@@ -117,7 +117,7 @@ function App() {
     const texto =
       `${saludo}\n` +
       `*Tipo de Siniestro:* ${tipoSiniestro}\n` +
-      `*Número de Caso:* ${numeroServicio.replace(" ", "")}\n` +
+      `*Número de Servicio:* ${numeroServicio.replace(" ", "")}\n` +
       `*Número de Siniestro:* ${numeroSiniestro.replace(" ", "")}\n` +
       `*Nombre del Asegurado:* ${nombreAsegurado}\n` +
       `*Nombre del Contacto:* ${nombreContacto}\n` +
@@ -205,8 +205,8 @@ function App() {
             onChange={(e) => setNumeroServicio(e.target.value)}
             type="text"
             variant="ghost"
-            label="Número de Caso"
-            placeholder="Ingrese el número de caso"
+            label="Número de Servicio"
+            placeholder="Ingrese el número de servicio"
           />
           <Button
             variant="ghost"
