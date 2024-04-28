@@ -439,7 +439,7 @@ function App() {
             {tipoSiniestro}
           </p>
           <p>
-            <b>Número de Caso: </b>
+            <b>Número de Servicio: </b>
             {numeroServicio.replace(" ", "").trim().replace(" ", "")}
           </p>
           <p>
@@ -474,6 +474,7 @@ function App() {
             <b>Deducible: </b>
           </p>
           <p>{deducible}</p>
+          <p><b>Por favor tomar foto del kilometraje y colocar el nombre del efectivo policial a cargo en la comisaría.</b></p>
           <p>Me avisas, gracias.</p>
         </CardBody>
       </Card>
