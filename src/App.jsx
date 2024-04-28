@@ -129,6 +129,7 @@ function App() {
       )}\n` +
       `*Ubicación del siniestro:* ${ubicacion}\n` +
       `*Deducible:* ` + '\n' + `${deducible}\n` +
+      `Por favor tomar foto del kilometraje y colocar el nombre del efectivo policial a cargo en la comisaría.\n`+
       "Me avisas, gracias.";
     const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
       texto
